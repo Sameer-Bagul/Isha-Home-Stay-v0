@@ -344,11 +344,12 @@ strong {
 .hero {
   max-width: 130rem;
   margin: 0 auto;
-  padding: 0 3.2rem;
+  padding: 0 1rem 0 1rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
+  gap: 9.6rem ;
   align-items: center;
+  min-height: 80vh;
 }
 
 .hero-description {
@@ -943,7 +944,7 @@ strong {
 }
 
 .room-img-gallery img:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 /* Responsive Styles */
