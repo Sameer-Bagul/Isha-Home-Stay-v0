@@ -38,14 +38,27 @@
 
         <nav class="main-nav">
             <ul class="main-nav-list">
-                <li><a class="main-nav-link" href="#">Home</a></li>
-                <li><a class="main-nav-link" href="#Rooms">Rooms</a></li>
-                <li><a class="main-nav-link" href="#meals">Facilites</a></li>
+                <li>
+                    <a class="main-nav-link" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="#Rooms">Rooms</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="#meals">Facilites</a>
+                </li>
                 <li>
                     <a class="main-nav-link" href="#testimonials">Tenants</a>
                 </li>
-                <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
-                <li><a class="main-nav-link nav-cta" href="#cta">Register!</a></li>
+                <li>
+                    <a class="main-nav-link" href="#location">Location</a>
+                </li>
+                <li>
+                    <a class="main-nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li>
+                    <a class="main-nav-link nav-cta" href="#cta">Register!</a>
+                </li>
             </ul>
         </nav>
 
@@ -71,7 +84,7 @@
                     </p>
                     <a href="#cta" class="btn btn--full margin-right-sm">Register Now !</a>
 
-                    <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+                    <a href="#Rooms" class="btn btn--outline">Learn more &darr;</a>
                 </div>
                 <div class="hero-img-box">
                     <picture>
@@ -274,8 +287,8 @@
                 <div class="pricing-plan pricing-plan--starter">
                     <header class="plan-header">
                         <p class="plan-name">Monthly</p>
-                        <p class="plan-price"><span>₹</span>3,333</p>
-                        <p class="plan-text">per month. That's just ₹111 per day!</p>
+                        <p class="plan-price"><span>₹</span>3,500</p>
+                        <p class="plan-text">per month. That's just ₹117 per day!</p>
                     </header>
                     
                     <ul class="list">
@@ -285,8 +298,13 @@
                         </li>
                         <li class="list-item">
                             <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span><strong>Refrigerator</strong></span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span>Electricity <strong>24/7</strong></span>
                         </li>
+                        
                         <li class="list-item">
                             <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span><strong>Kitchen</strong> Available for <strong>Breakfast!</strong> </span>
@@ -305,13 +323,17 @@
                 <div class="pricing-plan pricing-plan--complete">
                     <header class="plan-header">
                         <p class="plan-name">Annual</p>
-                        <p class="plan-price"><span>₹</span>39,600</p>
-                        <p class="plan-text">per year. That's just ₹3300 per Month!</p>
+                        <p class="plan-price"><span>₹</span>41,000</p>
+                        <p class="plan-text">per year. That's just ₹3416 per Month!</p>
                     </header>
                     <ul class="list">
                         <li class="list-item">
                             <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
                             <span><strong>Washing Machine</strong></span>
+                        </li>
+                        <li class="list-item">
+                            <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                            <span><strong>Refrigerator</strong></span>
                         </li>
                         <li class="list-item">
                             <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -363,10 +385,10 @@
                 </div>
             
                 <div class="feature">
-                    <ion-icon class="feature-icon" name="restaurant-outline"></ion-icon>
-                    <p class="feature-title">Delicious Meals</p>
+                    <ion-icon class="feature-icon" name="snow-outline"></ion-icon>
+                    <p class="feature-title">Refrigerator</p>
                     <p class="feature-text">
-                        Enjoy nutritious and delicious meals prepared daily by our expert chefs.
+                        Keep your food fresh and beverages cool with our provided refrigerators.
                     </p>
                 </div>
             </div>
@@ -385,7 +407,7 @@
                         <form class="cta-form" name="sign-up" netlify>
                             <div>
                                 <label for="full-name">Full Name</label>
-                                <input id="full-name" type="text" placeholder="Metta Surendhar" name="full-name" required />
+                                <input id="full-name" type="text" placeholder="Your name" name="full-name" required />
                             </div>
 
                             <div>
@@ -417,52 +439,44 @@
     </main>
 
     <footer class="footer">
+
         <div class="container grid grid--footer">
+            
             <div class="logo-col">
                 <a href="#" class="footer-logo">
                     <img src="./img/black-logo-t.png" alt="ISHA Girls PG logo" class="logo" />
                 </a>
+                <p class="address">
+                    70, Arunkumar Vidya Naga, Sakri Rd, Vidhya Vihar Colony, Dhule, Mahindale, Maharashtra 424001
+                </p>
+                
             </div>
     
-            <div class="address-col">
-                <p class="footer-heading">Contact us</p>
-                <address class="contacts">
-                    <p class="address">
-                        No 623, Ambedkar St., 4th Floor, Chennai, TamilNadu
-                    </p>
-                    <p>
-                        <a class="footer-link" href="tel:+915252535353">+91 52525 35353</a><br />
-                        <a class="footer-link" href="mailto:info@ishagirlspg.com">info@ishagirlspg.com</a>
-                    </p>
-                </address>
+    
+            <div class="info-col">
+                <p class="footer-heading">Information</p>
+                <ul class="footer-list">
+                    <li><a class="footer-link" href="#">About Us</a></li>
+                    <li><a class="footer-link" href="#">Rooms</a></li>
+                    <li><a class="footer-link" href="#">Facilities</a></li>
+                    <li><a class="footer-link" href="#">Pricing</a></li>
+                    <li><a class="footer-link" href="#">Contact</a></li>
+                </ul>
             </div>
     
-            <nav class="nav-col">
-                <p class="footer-heading">Account</p>
-                <ul class="footer-nav">
-                    <li><a class="footer-link" href="#">Create account</a></li>
-                    <li><a class="footer-link" href="#">Sign in</a></li>
-                    <li><a class="footer-link" href="#">Resident portal</a></li>
-                </ul>
-            </nav>
-    
-            <nav class="nav-col">
-                <p class="footer-heading">Company</p>
-                <ul class="footer-nav">
-                    <li><a class="footer-link" href="#">About ISHA Girls PG</a></li>
-                    <li><a class="footer-link" href="#">Our Services</a></li>
-                    <li><a class="footer-link" href="#">Careers</a></li>
-                </ul>
-            </nav>
-    
-            <nav class="nav-col">
-                <p class="footer-heading">Resources</p>
-                <ul class="footer-nav">
-                    <li><a class="footer-link" href="#">Blog</a></li>
-                    <li><a class="footer-link" href="#">Help center</a></li>
-                    <li><a class="footer-link" href="#">Privacy & terms</a></li>
-                </ul>
-            </nav>
+            <div class="map-col">
+                <p class="footer-heading" id="location">Our Location</p>
+                <div class="map"></div>
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.646905123456!2d74.7748913153168!3d20.90410797975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd9d9f9a3b9e0b!2sIsha%20Girls%20PG!5e0!3m2!1sen!2sin!4v1633078471234!5m2!1sen!2sin" 
+                        width="100%" 
+                        height="200" 
+                        style="border:0;" 
+                        allowfullscreen="true" 
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
         </div>
     </footer>
     
